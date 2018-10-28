@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ParameterVocabularies</key>
+	<array>
+		<dict>
+			<key>ParameterNames</key>
+			<array>
+				<string>INSearchForAccountsIntent.accountNickName</string>
+			</array>
+			<key>ParameterVocabulary</key>
+			<array>
+				<dict>
+					<key>VocabularyItemIdentifier</key>
+					<string>Test</string>
+					<key>VocabularyItemSynonyms</key>
+					<array>
+						<dict>
+							<key>VocabularyItemPhrase</key>
+							<string>Test</string>
+						</dict>
+					</array>
+				</dict>
+				<dict>
+					<key>VocabularyItemIdentifier</key>
+					<string>Manoj</string>
+					<key>VocabularyItemSynonyms</key>
+					<array>
+						<dict>
+							<key>VocabularyItemPhrase</key>
+							<string>Manoj</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

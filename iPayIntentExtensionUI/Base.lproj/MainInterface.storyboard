@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ObA-dk-sSI">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Intent View Controller-->
+        <scene sceneID="7MM-of-jgj">
+            <objects>
+                <viewController id="ObA-dk-sSI" customClass="IntentViewController" customModule="iPayIntentExtensionUI" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qkL-Od-lgU"/>
+                        <viewControllerLayoutGuide type="bottom" id="n38-gi-rB5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zMn-AG-sqS">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="150"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="sUk-fa-kcp">
+                                <rect key="frame" x="10" y="10" width="90" height="90"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="90" id="ObR-xS-4jS"/>
+                                    <constraint firstAttribute="height" constant="90" id="VEM-6T-eyb"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yFp-Md-Mgu">
+                                <rect key="frame" x="110" y="30" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="vpv-dr-g3Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5io-zf-6Kh">
+                                <rect key="frame" x="110" y="70" width="200" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Tuo-OI-dtw"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="yFp-Md-Mgu" secondAttribute="trailing" constant="10" id="08v-MK-NXh"/>
+                            <constraint firstItem="5io-zf-6Kh" firstAttribute="top" secondItem="yFp-Md-Mgu" secondAttribute="bottom" constant="10" id="4bL-EW-JrN"/>
+                            <constraint firstAttribute="trailing" secondItem="5io-zf-6Kh" secondAttribute="trailing" constant="10" id="AEz-g9-hTr"/>
+                            <constraint firstItem="sUk-fa-kcp" firstAttribute="top" secondItem="zMn-AG-sqS" secondAttribute="top" constant="10" id="PEx-nP-w0p"/>
+                            <constraint firstItem="yFp-Md-Mgu" firstAttribute="leading" secondItem="sUk-fa-kcp" secondAttribute="trailing" constant="10" id="ZGI-yE-sWb"/>
+                            <constraint firstItem="sUk-fa-kcp" firstAttribute="leading" secondItem="zMn-AG-sqS" secondAttribute="leading" constant="10" id="to5-Jl-uu3"/>
+                            <constraint firstItem="5io-zf-6Kh" firstAttribute="leading" secondItem="sUk-fa-kcp" secondAttribute="trailing" constant="10" id="uG1-1j-3KL"/>
+                            <constraint firstItem="yFp-Md-Mgu" firstAttribute="top" secondItem="qkL-Od-lgU" secondAttribute="bottom" constant="10" id="wfT-iE-BJI"/>
+                        </constraints>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="320" height="150"/>
+                    <connections>
+                        <outlet property="payeeAccNo" destination="5io-zf-6Kh" id="tbm-d0-Wqi"/>
+                        <outlet property="payeeName" destination="yFp-Md-Mgu" id="U7d-TO-dSm"/>
+                        <outlet property="profileIcon" destination="sUk-fa-kcp" id="ALc-JN-0Gw"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X47-rx-isc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-164.80000000000001" y="17.091454272863569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="images.jpeg" width="120" height="120"/>
+    </resources>
+</document>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>iPay.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>iPayCore.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>iPayIntentExtension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>iPayIntentExtensionUI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>631E91711DE6C89C003E8029</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>631E91851DE6C89D003E8029</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>631E91901DE6C89D003E8029</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>631E91A61DE6C8BB003E8029</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>631E91AF1DE6C8BB003E8029</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>631E91CC1DE6C8D2003E8029</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>631E91D41DE6C8D2003E8029</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

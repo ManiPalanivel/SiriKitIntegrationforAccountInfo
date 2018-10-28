@@ -1,0 +1,1411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6236ADAE21835C0D00135D9C /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62EA06972181F969009DA32E /* AppIntentVocabulary.plist */; };
+		6236ADB021835C6B00135D9C /* AppIntentVocabulary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 62EA06972181F969009DA32E /* AppIntentVocabulary.plist */; };
+		62380ED12180AC9F0048BC7F /* SearchAccountsIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62380ED02180AC9E0048BC7F /* SearchAccountsIntentHandler.swift */; };
+		6303103E1DEC5EB60077115E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6303103D1DEC5EB60077115E /* UIKit.framework */; };
+		631E91761DE6C89C003E8029 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E91751DE6C89C003E8029 /* AppDelegate.swift */; };
+		631E91781DE6C89C003E8029 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E91771DE6C89C003E8029 /* ViewController.swift */; };
+		631E917B1DE6C89C003E8029 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631E91791DE6C89C003E8029 /* Main.storyboard */; };
+		631E917D1DE6C89C003E8029 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 631E917C1DE6C89C003E8029 /* Assets.xcassets */; };
+		631E91801DE6C89C003E8029 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631E917E1DE6C89C003E8029 /* LaunchScreen.storyboard */; };
+		631E91AA1DE6C8BB003E8029 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E91A91DE6C8BB003E8029 /* IntentHandler.swift */; };
+		631E91B31DE6C8BB003E8029 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E91B21DE6C8BB003E8029 /* IntentsUI.framework */; };
+		631E91B61DE6C8BB003E8029 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E91B51DE6C8BB003E8029 /* IntentViewController.swift */; };
+		631E91B91DE6C8BB003E8029 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 631E91B71DE6C8BB003E8029 /* MainInterface.storyboard */; };
+		631E91BD1DE6C8BB003E8029 /* iPayIntentExtensionUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 631E91B01DE6C8BB003E8029 /* iPayIntentExtensionUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		631E91C01DE6C8BB003E8029 /* iPayIntentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 631E91A71DE6C8BB003E8029 /* iPayIntentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		631E91D61DE6C8D2003E8029 /* iPayCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E91CD1DE6C8D2003E8029 /* iPayCore.framework */; };
+		631E91DD1DE6C8D2003E8029 /* iPayCoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E91DC1DE6C8D2003E8029 /* iPayCoreTests.swift */; };
+		631E91DF1DE6C8D2003E8029 /* iPayCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 631E91CF1DE6C8D2003E8029 /* iPayCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		631E91EC1DE6C962003E8029 /* SendPaymentIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E91EB1DE6C962003E8029 /* SendPaymentIntentHandler.swift */; };
+		631E91F41DE6CDDA003E8029 /* PersonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 631E91F31DE6CDDA003E8029 /* PersonManager.swift */; };
+		6323D3981E07BEA7007A020C /* UserProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6323D3971E07BEA7007A020C /* UserProvider.swift */; };
+		6323D39A1E07DFD8007A020C /* HistoryProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6323D3991E07DFD8007A020C /* HistoryProvider.swift */; };
+		6323D39E1E07DFFE007A020C /* PayeeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6323D39D1E07DFFE007A020C /* PayeeProvider.swift */; };
+		632B09061E08146500F3132E /* profile1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 632B09041E08146500F3132E /* profile1.jpeg */; };
+		632B09071E08146500F3132E /* profile2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 632B09051E08146500F3132E /* profile2.jpeg */; };
+		63342DCE1DF174D300FE7F3A /* user.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63342DCB1DF174D300FE7F3A /* user.jpg */; };
+		63342DE11DF1B6A900FE7F3A /* app-icon-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DD41DF1B6A900FE7F3A /* app-icon-60x60.png */; };
+		63342DE51DF1B6A900FE7F3A /* app-icon-180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DD81DF1B6A900FE7F3A /* app-icon-180x180.png */; };
+		63342DE81DF1B6A900FE7F3A /* app-icon-120x120.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DDB1DF1B6A900FE7F3A /* app-icon-120x120.png */; };
+		63342DF61DF1B71B00FE7F3A /* icon-logout.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DEC1DF1B71B00FE7F3A /* icon-logout.png */; };
+		63342DF71DF1B71B00FE7F3A /* icon-logout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DED1DF1B71B00FE7F3A /* icon-logout@2x.png */; };
+		63342DF81DF1B71B00FE7F3A /* icon-payees.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DEE1DF1B71B00FE7F3A /* icon-payees.png */; };
+		63342DF91DF1B71B00FE7F3A /* icon-payees@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DEF1DF1B71B00FE7F3A /* icon-payees@2x.png */; };
+		63342DFA1DF1B71B00FE7F3A /* icon-profile.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DF01DF1B71B00FE7F3A /* icon-profile.png */; };
+		63342DFB1DF1B71B00FE7F3A /* icon-profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DF11DF1B71B00FE7F3A /* icon-profile@2x.png */; };
+		63342DFC1DF1B71B00FE7F3A /* icon-tranHistory.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DF21DF1B71B00FE7F3A /* icon-tranHistory.png */; };
+		63342DFD1DF1B71B00FE7F3A /* icon-tranHistory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DF31DF1B71B00FE7F3A /* icon-tranHistory@2x.png */; };
+		63342DFE1DF1B71B00FE7F3A /* icon-transfer.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DF41DF1B71B00FE7F3A /* icon-transfer.png */; };
+		63342DFF1DF1B71B00FE7F3A /* icon-transfer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342DF51DF1B71B00FE7F3A /* icon-transfer@2x.png */; };
+		63342E011DF1B8B600FE7F3A /* icon-menu-60x60.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342E001DF1B8B600FE7F3A /* icon-menu-60x60.png */; };
+		63342E031DF1B90800FE7F3A /* icon-menu-30x30.png in Resources */ = {isa = PBXBuildFile; fileRef = 63342E021DF1B90800FE7F3A /* icon-menu-30x30.png */; };
+		635FA28B1DE7F938000D21A5 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635FA28A1DE7F938000D21A5 /* AccountManager.swift */; };
+		635FA28F1DE86173000D21A5 /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 635FA28E1DE86173000D21A5 /* images.jpeg */; };
+		635FA2911DE86219000D21A5 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635FA2901DE86219000D21A5 /* UserManager.swift */; };
+		6376D8621E02A7C200526668 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6376D8611E02A7C200526668 /* LocalAuthentication.framework */; };
+		6376D8671E03C6DC00526668 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376D8661E03C6DC00526668 /* DatabaseManager.swift */; };
+		6376D8691E03C78B00526668 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6376D8681E03C78B00526668 /* CoreData.framework */; };
+		6376D86D1E03E76C00526668 /* iPay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6376D86B1E03E76C00526668 /* iPay.xcdatamodeld */; };
+		6376D8901E03EB1100526668 /* HistoryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376D88D1E03EB1100526668 /* HistoryEntity.swift */; };
+		6376D8911E03EB1100526668 /* PersonEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376D88E1E03EB1100526668 /* PersonEntity.swift */; };
+		6376D8921E03EB1100526668 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6376D88F1E03EB1100526668 /* UserEntity.swift */; };
+		638C07551E5EBF1900B09F1F /* profile3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C074D1E5EBF1900B09F1F /* profile3.jpeg */; };
+		638C07561E5EBF1900B09F1F /* profile4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C074E1E5EBF1900B09F1F /* profile4.jpeg */; };
+		638C07571E5EBF1900B09F1F /* profile5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C074F1E5EBF1900B09F1F /* profile5.jpeg */; };
+		638C07581E5EBF1900B09F1F /* profile6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C07501E5EBF1900B09F1F /* profile6.jpeg */; };
+		638C07591E5EBF1900B09F1F /* profile7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C07511E5EBF1900B09F1F /* profile7.jpeg */; };
+		638C075A1E5EBF1900B09F1F /* profile8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C07521E5EBF1900B09F1F /* profile8.jpeg */; };
+		638C075B1E5EBF1900B09F1F /* profile9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C07531E5EBF1900B09F1F /* profile9.jpeg */; };
+		638C075C1E5EBF1900B09F1F /* profile10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C07541E5EBF1900B09F1F /* profile10.jpeg */; };
+		638C07651E5EBF2900B09F1F /* profile3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C075D1E5EBF2900B09F1F /* profile3.jpeg */; };
+		638C07661E5EBF2900B09F1F /* profile4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C075E1E5EBF2900B09F1F /* profile4.jpeg */; };
+		638C07671E5EBF2900B09F1F /* profile5.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C075F1E5EBF2900B09F1F /* profile5.jpeg */; };
+		638C07681E5EBF2900B09F1F /* profile6.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C07601E5EBF2900B09F1F /* profile6.jpeg */; };
+		638C07691E5EBF2900B09F1F /* profile7.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C07611E5EBF2900B09F1F /* profile7.jpeg */; };
+		638C076A1E5EBF2900B09F1F /* profile8.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C07621E5EBF2900B09F1F /* profile8.jpeg */; };
+		638C076B1E5EBF2900B09F1F /* profile9.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C07631E5EBF2900B09F1F /* profile9.jpeg */; };
+		638C076C1E5EBF2900B09F1F /* profile10.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 638C07641E5EBF2900B09F1F /* profile10.jpeg */; };
+		63C61E761DED905F00962544 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C61E751DED905F00962544 /* SWRevealViewController.m */; };
+		63DB0A081E0913C4003F78F5 /* profile1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63DB0A061E0913C4003F78F5 /* profile1.jpeg */; };
+		63DB0A091E0913C4003F78F5 /* profile2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 63DB0A071E0913C4003F78F5 /* profile2.jpeg */; };
+		63F48FC91DF034A4004EF0A1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F48FC81DF034A4004EF0A1 /* MenuViewController.swift */; };
+		63F48FCB1DF034C1004EF0A1 /* TransactionHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F48FCA1DF034C1004EF0A1 /* TransactionHistoryViewController.swift */; };
+		63F48FCD1DF034D2004EF0A1 /* FundTransferController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F48FCC1DF034D2004EF0A1 /* FundTransferController.swift */; };
+		63F48FCF1DF034E3004EF0A1 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F48FCE1DF034E3004EF0A1 /* ProfileViewController.swift */; };
+		63F48FD21DF03515004EF0A1 /* PayeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F48FD11DF03515004EF0A1 /* PayeesViewController.swift */; };
+		63F48FD51DF03557004EF0A1 /* PayeeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F48FD41DF03557004EF0A1 /* PayeeCell.swift */; };
+		63F48FD71DF0356F004EF0A1 /* TransactionHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F48FD61DF0356F004EF0A1 /* TransactionHistoryCell.swift */; };
+		63F48FD91DF038C1004EF0A1 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F48FD81DF038C1004EF0A1 /* MenuTableViewCell.swift */; };
+		63FCD4B11E096070009D49C2 /* iPayCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 631E91CD1DE6C8D2003E8029 /* iPayCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63FCD4B81E096092009D49C2 /* iPayCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E91CD1DE6C8D2003E8029 /* iPayCore.framework */; };
+		63FCD4B91E096099009D49C2 /* iPayCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 631E91CD1DE6C8D2003E8029 /* iPayCore.framework */; };
+		63FE9CBB1DEEF701007EC02D /* HistoryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63FE9CBA1DEEF701007EC02D /* HistoryManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		631E91BB1DE6C8BB003E8029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631E916A1DE6C89C003E8029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631E91AF1DE6C8BB003E8029;
+			remoteInfo = iPayIntentExtensionUI;
+		};
+		631E91BE1DE6C8BB003E8029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631E916A1DE6C89C003E8029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631E91A61DE6C8BB003E8029;
+			remoteInfo = iPayIntentExtension;
+		};
+		631E91D71DE6C8D2003E8029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631E916A1DE6C89C003E8029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631E91CC1DE6C8D2003E8029;
+			remoteInfo = iPayCore;
+		};
+		631E91D91DE6C8D2003E8029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631E916A1DE6C89C003E8029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631E91711DE6C89C003E8029;
+			remoteInfo = iPay;
+		};
+		63FCD4B21E09607A009D49C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631E916A1DE6C89C003E8029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631E91CC1DE6C8D2003E8029;
+			remoteInfo = iPayCore;
+		};
+		63FCD4B41E096083009D49C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631E916A1DE6C89C003E8029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631E91CC1DE6C8D2003E8029;
+			remoteInfo = iPayCore;
+		};
+		63FCD4B61E096089009D49C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 631E916A1DE6C89C003E8029 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 631E91CC1DE6C8D2003E8029;
+			remoteInfo = iPayCore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		631E91C71DE6C8BB003E8029 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				631E91BD1DE6C8BB003E8029 /* iPayIntentExtensionUI.appex in Embed App Extensions */,
+				631E91C01DE6C8BB003E8029 /* iPayIntentExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63FCD4B01E09603B009D49C2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				63FCD4B11E096070009D49C2 /* iPayCore.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		62380ED02180AC9E0048BC7F /* SearchAccountsIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAccountsIntentHandler.swift; sourceTree = "<group>"; };
+		62EA06972181F969009DA32E /* AppIntentVocabulary.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		6303103D1DEC5EB60077115E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		631E91721DE6C89C003E8029 /* iPay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		631E91751DE6C89C003E8029 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		631E91771DE6C89C003E8029 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		631E917A1DE6C89C003E8029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		631E917C1DE6C89C003E8029 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		631E917F1DE6C89C003E8029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		631E91811DE6C89C003E8029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631E918A1DE6C89D003E8029 /* iPayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPayTests.swift; sourceTree = "<group>"; };
+		631E918C1DE6C89D003E8029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631E91951DE6C89D003E8029 /* iPayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPayUITests.swift; sourceTree = "<group>"; };
+		631E91971DE6C89D003E8029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631E91A71DE6C8BB003E8029 /* iPayIntentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iPayIntentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		631E91A91DE6C8BB003E8029 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		631E91AB1DE6C8BB003E8029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631E91B01DE6C8BB003E8029 /* iPayIntentExtensionUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = iPayIntentExtensionUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		631E91B21DE6C8BB003E8029 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		631E91B51DE6C8BB003E8029 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		631E91B81DE6C8BB003E8029 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		631E91BA1DE6C8BB003E8029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631E91CD1DE6C8D2003E8029 /* iPayCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iPayCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		631E91CF1DE6C8D2003E8029 /* iPayCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPayCore.h; sourceTree = "<group>"; };
+		631E91D01DE6C8D2003E8029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631E91D51DE6C8D2003E8029 /* iPayCoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iPayCoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		631E91DC1DE6C8D2003E8029 /* iPayCoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iPayCoreTests.swift; sourceTree = "<group>"; };
+		631E91DE1DE6C8D2003E8029 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		631E91EB1DE6C962003E8029 /* SendPaymentIntentHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendPaymentIntentHandler.swift; sourceTree = "<group>"; };
+		631E91F31DE6CDDA003E8029 /* PersonManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonManager.swift; sourceTree = "<group>"; };
+		6323D3971E07BEA7007A020C /* UserProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProvider.swift; sourceTree = "<group>"; };
+		6323D3991E07DFD8007A020C /* HistoryProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryProvider.swift; sourceTree = "<group>"; };
+		6323D39D1E07DFFE007A020C /* PayeeProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayeeProvider.swift; sourceTree = "<group>"; };
+		632B09041E08146500F3132E /* profile1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile1.jpeg; sourceTree = "<group>"; };
+		632B09051E08146500F3132E /* profile2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile2.jpeg; sourceTree = "<group>"; };
+		63342DCB1DF174D300FE7F3A /* user.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = user.jpg; sourceTree = "<group>"; };
+		63342DD41DF1B6A900FE7F3A /* app-icon-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-60x60.png"; sourceTree = "<group>"; };
+		63342DD81DF1B6A900FE7F3A /* app-icon-180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-180x180.png"; sourceTree = "<group>"; };
+		63342DDB1DF1B6A900FE7F3A /* app-icon-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "app-icon-120x120.png"; sourceTree = "<group>"; };
+		63342DEC1DF1B71B00FE7F3A /* icon-logout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-logout.png"; sourceTree = "<group>"; };
+		63342DED1DF1B71B00FE7F3A /* icon-logout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-logout@2x.png"; sourceTree = "<group>"; };
+		63342DEE1DF1B71B00FE7F3A /* icon-payees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-payees.png"; sourceTree = "<group>"; };
+		63342DEF1DF1B71B00FE7F3A /* icon-payees@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-payees@2x.png"; sourceTree = "<group>"; };
+		63342DF01DF1B71B00FE7F3A /* icon-profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-profile.png"; sourceTree = "<group>"; };
+		63342DF11DF1B71B00FE7F3A /* icon-profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-profile@2x.png"; sourceTree = "<group>"; };
+		63342DF21DF1B71B00FE7F3A /* icon-tranHistory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-tranHistory.png"; sourceTree = "<group>"; };
+		63342DF31DF1B71B00FE7F3A /* icon-tranHistory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-tranHistory@2x.png"; sourceTree = "<group>"; };
+		63342DF41DF1B71B00FE7F3A /* icon-transfer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-transfer.png"; sourceTree = "<group>"; };
+		63342DF51DF1B71B00FE7F3A /* icon-transfer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-transfer@2x.png"; sourceTree = "<group>"; };
+		63342E001DF1B8B600FE7F3A /* icon-menu-60x60.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-menu-60x60.png"; sourceTree = "<group>"; };
+		63342E021DF1B90800FE7F3A /* icon-menu-30x30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-menu-30x30.png"; sourceTree = "<group>"; };
+		635FA28A1DE7F938000D21A5 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		635FA28C1DE83627000D21A5 /* iPay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iPay.entitlements; sourceTree = "<group>"; };
+		635FA28E1DE86173000D21A5 /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = images.jpeg; sourceTree = "<group>"; };
+		635FA2901DE86219000D21A5 /* UserManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		6376D8611E02A7C200526668 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		6376D8661E03C6DC00526668 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		6376D8681E03C78B00526668 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6376D86C1E03E76C00526668 /* iPay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iPay.xcdatamodel; sourceTree = "<group>"; };
+		6376D88D1E03EB1100526668 /* HistoryEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryEntity.swift; sourceTree = "<group>"; };
+		6376D88E1E03EB1100526668 /* PersonEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonEntity.swift; sourceTree = "<group>"; };
+		6376D88F1E03EB1100526668 /* UserEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
+		638C074D1E5EBF1900B09F1F /* profile3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile3.jpeg; sourceTree = "<group>"; };
+		638C074E1E5EBF1900B09F1F /* profile4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile4.jpeg; sourceTree = "<group>"; };
+		638C074F1E5EBF1900B09F1F /* profile5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile5.jpeg; sourceTree = "<group>"; };
+		638C07501E5EBF1900B09F1F /* profile6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile6.jpeg; sourceTree = "<group>"; };
+		638C07511E5EBF1900B09F1F /* profile7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile7.jpeg; sourceTree = "<group>"; };
+		638C07521E5EBF1900B09F1F /* profile8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile8.jpeg; sourceTree = "<group>"; };
+		638C07531E5EBF1900B09F1F /* profile9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile9.jpeg; sourceTree = "<group>"; };
+		638C07541E5EBF1900B09F1F /* profile10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile10.jpeg; sourceTree = "<group>"; };
+		638C075D1E5EBF2900B09F1F /* profile3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile3.jpeg; sourceTree = "<group>"; };
+		638C075E1E5EBF2900B09F1F /* profile4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile4.jpeg; sourceTree = "<group>"; };
+		638C075F1E5EBF2900B09F1F /* profile5.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile5.jpeg; sourceTree = "<group>"; };
+		638C07601E5EBF2900B09F1F /* profile6.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile6.jpeg; sourceTree = "<group>"; };
+		638C07611E5EBF2900B09F1F /* profile7.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile7.jpeg; sourceTree = "<group>"; };
+		638C07621E5EBF2900B09F1F /* profile8.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile8.jpeg; sourceTree = "<group>"; };
+		638C07631E5EBF2900B09F1F /* profile9.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile9.jpeg; sourceTree = "<group>"; };
+		638C07641E5EBF2900B09F1F /* profile10.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile10.jpeg; sourceTree = "<group>"; };
+		63C61E731DED905F00962544 /* SidebarMenu-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SidebarMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		63C61E741DED905F00962544 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		63C61E751DED905F00962544 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		63DB0A061E0913C4003F78F5 /* profile1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile1.jpeg; sourceTree = "<group>"; };
+		63DB0A071E0913C4003F78F5 /* profile2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile2.jpeg; sourceTree = "<group>"; };
+		63F48FC81DF034A4004EF0A1 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		63F48FCA1DF034C1004EF0A1 /* TransactionHistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryViewController.swift; sourceTree = "<group>"; };
+		63F48FCC1DF034D2004EF0A1 /* FundTransferController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FundTransferController.swift; sourceTree = "<group>"; };
+		63F48FCE1DF034E3004EF0A1 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		63F48FD11DF03515004EF0A1 /* PayeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayeesViewController.swift; sourceTree = "<group>"; };
+		63F48FD41DF03557004EF0A1 /* PayeeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayeeCell.swift; sourceTree = "<group>"; };
+		63F48FD61DF0356F004EF0A1 /* TransactionHistoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionHistoryCell.swift; sourceTree = "<group>"; };
+		63F48FD81DF038C1004EF0A1 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		63FCD4BA1E0961A5009D49C2 /* iPayIntentExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iPayIntentExtension.entitlements; sourceTree = "<group>"; };
+		63FCD4BB1E0961AE009D49C2 /* iPayIntentExtensionUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iPayIntentExtensionUI.entitlements; sourceTree = "<group>"; };
+		63FE9CBA1DEEF701007EC02D /* HistoryManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		631E916F1DE6C89C003E8029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6303103E1DEC5EB60077115E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91A41DE6C8BB003E8029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FCD4B91E096099009D49C2 /* iPayCore.framework in Frameworks */,
+				6376D8621E02A7C200526668 /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91AD1DE6C8BB003E8029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63FCD4B81E096092009D49C2 /* iPayCore.framework in Frameworks */,
+				631E91B31DE6C8BB003E8029 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91C91DE6C8D2003E8029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6376D8691E03C78B00526668 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91D21DE6C8D2003E8029 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E91D61DE6C8D2003E8029 /* iPayCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		631E91691DE6C89C003E8029 = {
+			isa = PBXGroup;
+			children = (
+				62EA06972181F969009DA32E /* AppIntentVocabulary.plist */,
+				631E91741DE6C89C003E8029 /* iPay */,
+				631E91891DE6C89D003E8029 /* iPayTests */,
+				631E91941DE6C89D003E8029 /* iPayUITests */,
+				631E91A81DE6C8BB003E8029 /* iPayIntentExtension */,
+				631E91B41DE6C8BB003E8029 /* iPayIntentExtensionUI */,
+				631E91CE1DE6C8D2003E8029 /* iPayCore */,
+				631E91DB1DE6C8D2003E8029 /* iPayCoreTests */,
+				631E91B11DE6C8BB003E8029 /* Frameworks */,
+				631E91731DE6C89C003E8029 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		631E91731DE6C89C003E8029 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				631E91721DE6C89C003E8029 /* iPay.app */,
+				631E91A71DE6C8BB003E8029 /* iPayIntentExtension.appex */,
+				631E91B01DE6C8BB003E8029 /* iPayIntentExtensionUI.appex */,
+				631E91CD1DE6C8D2003E8029 /* iPayCore.framework */,
+				631E91D51DE6C8D2003E8029 /* iPayCoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		631E91741DE6C89C003E8029 /* iPay */ = {
+			isa = PBXGroup;
+			children = (
+				63342DC81DF174D300FE7F3A /* Images */,
+				63C61E701DED905F00962544 /* UI */,
+				635FA28C1DE83627000D21A5 /* iPay.entitlements */,
+				631E91751DE6C89C003E8029 /* AppDelegate.swift */,
+				631E91771DE6C89C003E8029 /* ViewController.swift */,
+				631E91791DE6C89C003E8029 /* Main.storyboard */,
+				631E917C1DE6C89C003E8029 /* Assets.xcassets */,
+				631E917E1DE6C89C003E8029 /* LaunchScreen.storyboard */,
+				631E91811DE6C89C003E8029 /* Info.plist */,
+			);
+			path = iPay;
+			sourceTree = "<group>";
+		};
+		631E91891DE6C89D003E8029 /* iPayTests */ = {
+			isa = PBXGroup;
+			children = (
+				631E918A1DE6C89D003E8029 /* iPayTests.swift */,
+				631E918C1DE6C89D003E8029 /* Info.plist */,
+			);
+			path = iPayTests;
+			sourceTree = "<group>";
+		};
+		631E91941DE6C89D003E8029 /* iPayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				631E91951DE6C89D003E8029 /* iPayUITests.swift */,
+				631E91971DE6C89D003E8029 /* Info.plist */,
+			);
+			path = iPayUITests;
+			sourceTree = "<group>";
+		};
+		631E91A81DE6C8BB003E8029 /* iPayIntentExtension */ = {
+			isa = PBXGroup;
+			children = (
+				63FCD4BA1E0961A5009D49C2 /* iPayIntentExtension.entitlements */,
+				631E91A91DE6C8BB003E8029 /* IntentHandler.swift */,
+				631E91AB1DE6C8BB003E8029 /* Info.plist */,
+				631E91EB1DE6C962003E8029 /* SendPaymentIntentHandler.swift */,
+				62380ED02180AC9E0048BC7F /* SearchAccountsIntentHandler.swift */,
+			);
+			path = iPayIntentExtension;
+			sourceTree = "<group>";
+		};
+		631E91B11DE6C8BB003E8029 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6376D8681E03C78B00526668 /* CoreData.framework */,
+				6376D8611E02A7C200526668 /* LocalAuthentication.framework */,
+				6303103D1DEC5EB60077115E /* UIKit.framework */,
+				631E91B21DE6C8BB003E8029 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		631E91B41DE6C8BB003E8029 /* iPayIntentExtensionUI */ = {
+			isa = PBXGroup;
+			children = (
+				63FCD4BB1E0961AE009D49C2 /* iPayIntentExtensionUI.entitlements */,
+				63DB0A051E0913C4003F78F5 /* Profile icons */,
+				635FA28E1DE86173000D21A5 /* images.jpeg */,
+				631E91B51DE6C8BB003E8029 /* IntentViewController.swift */,
+				631E91B71DE6C8BB003E8029 /* MainInterface.storyboard */,
+				631E91BA1DE6C8BB003E8029 /* Info.plist */,
+			);
+			path = iPayIntentExtensionUI;
+			sourceTree = "<group>";
+		};
+		631E91CE1DE6C8D2003E8029 /* iPayCore */ = {
+			isa = PBXGroup;
+			children = (
+				631E91ED1DE6CDA5003E8029 /* Database */,
+				631E91EE1DE6CDA5003E8029 /* Model */,
+				631E91EF1DE6CDA5003E8029 /* Network Manager */,
+				631E91F01DE6CDA5003E8029 /* Payment */,
+				631E91CF1DE6C8D2003E8029 /* iPayCore.h */,
+				631E91D01DE6C8D2003E8029 /* Info.plist */,
+			);
+			path = iPayCore;
+			sourceTree = "<group>";
+		};
+		631E91DB1DE6C8D2003E8029 /* iPayCoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				631E91DC1DE6C8D2003E8029 /* iPayCoreTests.swift */,
+				631E91DE1DE6C8D2003E8029 /* Info.plist */,
+			);
+			path = iPayCoreTests;
+			sourceTree = "<group>";
+		};
+		631E91ED1DE6CDA5003E8029 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				6376D8931E04116000526668 /* Model */,
+				6376D8661E03C6DC00526668 /* DatabaseManager.swift */,
+				6376D86B1E03E76C00526668 /* iPay.xcdatamodeld */,
+				6323D3971E07BEA7007A020C /* UserProvider.swift */,
+				6323D3991E07DFD8007A020C /* HistoryProvider.swift */,
+				6323D39D1E07DFFE007A020C /* PayeeProvider.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		631E91EE1DE6CDA5003E8029 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6376D88D1E03EB1100526668 /* HistoryEntity.swift */,
+				6376D88E1E03EB1100526668 /* PersonEntity.swift */,
+				6376D88F1E03EB1100526668 /* UserEntity.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		631E91EF1DE6CDA5003E8029 /* Network Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Network Manager";
+			sourceTree = "<group>";
+		};
+		631E91F01DE6CDA5003E8029 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				631E91F31DE6CDDA003E8029 /* PersonManager.swift */,
+				635FA28A1DE7F938000D21A5 /* AccountManager.swift */,
+				635FA2901DE86219000D21A5 /* UserManager.swift */,
+				63FE9CBA1DEEF701007EC02D /* HistoryManager.swift */,
+			);
+			path = Payment;
+			sourceTree = "<group>";
+		};
+		632B09031E08146500F3132E /* Profile icons */ = {
+			isa = PBXGroup;
+			children = (
+				638C074D1E5EBF1900B09F1F /* profile3.jpeg */,
+				638C074E1E5EBF1900B09F1F /* profile4.jpeg */,
+				638C074F1E5EBF1900B09F1F /* profile5.jpeg */,
+				638C07501E5EBF1900B09F1F /* profile6.jpeg */,
+				638C07511E5EBF1900B09F1F /* profile7.jpeg */,
+				638C07521E5EBF1900B09F1F /* profile8.jpeg */,
+				638C07531E5EBF1900B09F1F /* profile9.jpeg */,
+				638C07541E5EBF1900B09F1F /* profile10.jpeg */,
+				632B09041E08146500F3132E /* profile1.jpeg */,
+				632B09051E08146500F3132E /* profile2.jpeg */,
+			);
+			path = "Profile icons";
+			sourceTree = "<group>";
+		};
+		63342DC81DF174D300FE7F3A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				632B09031E08146500F3132E /* Profile icons */,
+				63342E021DF1B90800FE7F3A /* icon-menu-30x30.png */,
+				63342E001DF1B8B600FE7F3A /* icon-menu-60x60.png */,
+				63342DEC1DF1B71B00FE7F3A /* icon-logout.png */,
+				63342DED1DF1B71B00FE7F3A /* icon-logout@2x.png */,
+				63342DEE1DF1B71B00FE7F3A /* icon-payees.png */,
+				63342DEF1DF1B71B00FE7F3A /* icon-payees@2x.png */,
+				63342DF01DF1B71B00FE7F3A /* icon-profile.png */,
+				63342DF11DF1B71B00FE7F3A /* icon-profile@2x.png */,
+				63342DF21DF1B71B00FE7F3A /* icon-tranHistory.png */,
+				63342DF31DF1B71B00FE7F3A /* icon-tranHistory@2x.png */,
+				63342DF41DF1B71B00FE7F3A /* icon-transfer.png */,
+				63342DF51DF1B71B00FE7F3A /* icon-transfer@2x.png */,
+				63342DD41DF1B6A900FE7F3A /* app-icon-60x60.png */,
+				63342DD81DF1B6A900FE7F3A /* app-icon-180x180.png */,
+				63342DDB1DF1B6A900FE7F3A /* app-icon-120x120.png */,
+				63342DCB1DF174D300FE7F3A /* user.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		6376D8931E04116000526668 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		63C61E701DED905F00962544 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				63F48FD31DF03547004EF0A1 /* Table View Cells */,
+				63F48FD01DF03507004EF0A1 /* Payees */,
+				63C61E771DED90F400962544 /* Fund Transfer */,
+				63C61E781DED90F400962544 /* Transactions */,
+				63C61E791DED90F400962544 /* Menu */,
+				63C61E7A1DED90F400962544 /* Profile */,
+				63C61E711DED905F00962544 /* Slide Menu */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		63C61E711DED905F00962544 /* Slide Menu */ = {
+			isa = PBXGroup;
+			children = (
+				63C61E721DED905F00962544 /* SWRevealViewController */,
+			);
+			path = "Slide Menu";
+			sourceTree = "<group>";
+		};
+		63C61E721DED905F00962544 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				63C61E731DED905F00962544 /* SidebarMenu-Bridging-Header.h */,
+				63C61E741DED905F00962544 /* SWRevealViewController.h */,
+				63C61E751DED905F00962544 /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		63C61E771DED90F400962544 /* Fund Transfer */ = {
+			isa = PBXGroup;
+			children = (
+				63F48FCC1DF034D2004EF0A1 /* FundTransferController.swift */,
+			);
+			path = "Fund Transfer";
+			sourceTree = "<group>";
+		};
+		63C61E781DED90F400962544 /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				63F48FCA1DF034C1004EF0A1 /* TransactionHistoryViewController.swift */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		63C61E791DED90F400962544 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				63F48FC81DF034A4004EF0A1 /* MenuViewController.swift */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		63C61E7A1DED90F400962544 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				63F48FCE1DF034E3004EF0A1 /* ProfileViewController.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		63DB0A051E0913C4003F78F5 /* Profile icons */ = {
+			isa = PBXGroup;
+			children = (
+				638C075D1E5EBF2900B09F1F /* profile3.jpeg */,
+				638C075E1E5EBF2900B09F1F /* profile4.jpeg */,
+				638C075F1E5EBF2900B09F1F /* profile5.jpeg */,
+				638C07601E5EBF2900B09F1F /* profile6.jpeg */,
+				638C07611E5EBF2900B09F1F /* profile7.jpeg */,
+				638C07621E5EBF2900B09F1F /* profile8.jpeg */,
+				638C07631E5EBF2900B09F1F /* profile9.jpeg */,
+				638C07641E5EBF2900B09F1F /* profile10.jpeg */,
+				63DB0A061E0913C4003F78F5 /* profile1.jpeg */,
+				63DB0A071E0913C4003F78F5 /* profile2.jpeg */,
+			);
+			path = "Profile icons";
+			sourceTree = "<group>";
+		};
+		63F48FD01DF03507004EF0A1 /* Payees */ = {
+			isa = PBXGroup;
+			children = (
+				63F48FD11DF03515004EF0A1 /* PayeesViewController.swift */,
+			);
+			path = Payees;
+			sourceTree = "<group>";
+		};
+		63F48FD31DF03547004EF0A1 /* Table View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				63F48FD41DF03557004EF0A1 /* PayeeCell.swift */,
+				63F48FD61DF0356F004EF0A1 /* TransactionHistoryCell.swift */,
+				63F48FD81DF038C1004EF0A1 /* MenuTableViewCell.swift */,
+			);
+			path = "Table View Cells";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		631E91CA1DE6C8D2003E8029 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E91DF1DE6C8D2003E8029 /* iPayCore.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		631E91711DE6C89C003E8029 /* iPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631E919A1DE6C89D003E8029 /* Build configuration list for PBXNativeTarget "iPay" */;
+			buildPhases = (
+				631E916E1DE6C89C003E8029 /* Sources */,
+				631E916F1DE6C89C003E8029 /* Frameworks */,
+				631E91701DE6C89C003E8029 /* Resources */,
+				631E91C71DE6C8BB003E8029 /* Embed App Extensions */,
+				63FCD4B01E09603B009D49C2 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63FCD4B31E09607A009D49C2 /* PBXTargetDependency */,
+				631E91BC1DE6C8BB003E8029 /* PBXTargetDependency */,
+				631E91BF1DE6C8BB003E8029 /* PBXTargetDependency */,
+			);
+			name = iPay;
+			productName = iPay;
+			productReference = 631E91721DE6C89C003E8029 /* iPay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		631E91A61DE6C8BB003E8029 /* iPayIntentExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631E91C41DE6C8BB003E8029 /* Build configuration list for PBXNativeTarget "iPayIntentExtension" */;
+			buildPhases = (
+				631E91A31DE6C8BB003E8029 /* Sources */,
+				631E91A41DE6C8BB003E8029 /* Frameworks */,
+				631E91A51DE6C8BB003E8029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63FCD4B51E096083009D49C2 /* PBXTargetDependency */,
+			);
+			name = iPayIntentExtension;
+			productName = iPayIntentExtension;
+			productReference = 631E91A71DE6C8BB003E8029 /* iPayIntentExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		631E91AF1DE6C8BB003E8029 /* iPayIntentExtensionUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631E91C11DE6C8BB003E8029 /* Build configuration list for PBXNativeTarget "iPayIntentExtensionUI" */;
+			buildPhases = (
+				631E91AC1DE6C8BB003E8029 /* Sources */,
+				631E91AD1DE6C8BB003E8029 /* Frameworks */,
+				631E91AE1DE6C8BB003E8029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63FCD4B71E096089009D49C2 /* PBXTargetDependency */,
+			);
+			name = iPayIntentExtensionUI;
+			productName = iPayIntentExtensionUI;
+			productReference = 631E91B01DE6C8BB003E8029 /* iPayIntentExtensionUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		631E91CC1DE6C8D2003E8029 /* iPayCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631E91E41DE6C8D2003E8029 /* Build configuration list for PBXNativeTarget "iPayCore" */;
+			buildPhases = (
+				631E91C81DE6C8D2003E8029 /* Sources */,
+				631E91C91DE6C8D2003E8029 /* Frameworks */,
+				631E91CA1DE6C8D2003E8029 /* Headers */,
+				631E91CB1DE6C8D2003E8029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPayCore;
+			productName = iPayCore;
+			productReference = 631E91CD1DE6C8D2003E8029 /* iPayCore.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		631E91D41DE6C8D2003E8029 /* iPayCoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 631E91E81DE6C8D2003E8029 /* Build configuration list for PBXNativeTarget "iPayCoreTests" */;
+			buildPhases = (
+				631E91D11DE6C8D2003E8029 /* Sources */,
+				631E91D21DE6C8D2003E8029 /* Frameworks */,
+				631E91D31DE6C8D2003E8029 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				631E91D81DE6C8D2003E8029 /* PBXTargetDependency */,
+				631E91DA1DE6C8D2003E8029 /* PBXTargetDependency */,
+			);
+			name = iPayCoreTests;
+			productName = iPayCoreTests;
+			productReference = 631E91D51DE6C8D2003E8029 /* iPayCoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		631E916A1DE6C89C003E8029 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Aspire Syatems";
+				TargetAttributes = {
+					631E91711DE6C89C003E8029 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Siri = {
+								enabled = 1;
+							};
+						};
+					};
+					631E91A61DE6C8BB003E8029 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					631E91AF1DE6C8BB003E8029 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					631E91CC1DE6C8D2003E8029 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Manual;
+					};
+					631E91D41DE6C8D2003E8029 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = S45JLX7U95;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 631E91711DE6C89C003E8029;
+					};
+				};
+			};
+			buildConfigurationList = 631E916D1DE6C89C003E8029 /* Build configuration list for PBXProject "iPay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 631E91691DE6C89C003E8029;
+			productRefGroup = 631E91731DE6C89C003E8029 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				631E91711DE6C89C003E8029 /* iPay */,
+				631E91A61DE6C8BB003E8029 /* iPayIntentExtension */,
+				631E91AF1DE6C8BB003E8029 /* iPayIntentExtensionUI */,
+				631E91CC1DE6C8D2003E8029 /* iPayCore */,
+				631E91D41DE6C8D2003E8029 /* iPayCoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		631E91701DE6C89C003E8029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63342DF71DF1B71B00FE7F3A /* icon-logout@2x.png in Resources */,
+				63342DF61DF1B71B00FE7F3A /* icon-logout.png in Resources */,
+				63342DF91DF1B71B00FE7F3A /* icon-payees@2x.png in Resources */,
+				638C07581E5EBF1900B09F1F /* profile6.jpeg in Resources */,
+				632B09061E08146500F3132E /* profile1.jpeg in Resources */,
+				631E91801DE6C89C003E8029 /* LaunchScreen.storyboard in Resources */,
+				63342DFC1DF1B71B00FE7F3A /* icon-tranHistory.png in Resources */,
+				638C07591E5EBF1900B09F1F /* profile7.jpeg in Resources */,
+				63342DE11DF1B6A900FE7F3A /* app-icon-60x60.png in Resources */,
+				63342E031DF1B90800FE7F3A /* icon-menu-30x30.png in Resources */,
+				631E917D1DE6C89C003E8029 /* Assets.xcassets in Resources */,
+				63342DFF1DF1B71B00FE7F3A /* icon-transfer@2x.png in Resources */,
+				631E917B1DE6C89C003E8029 /* Main.storyboard in Resources */,
+				63342DFB1DF1B71B00FE7F3A /* icon-profile@2x.png in Resources */,
+				63342DE81DF1B6A900FE7F3A /* app-icon-120x120.png in Resources */,
+				638C075B1E5EBF1900B09F1F /* profile9.jpeg in Resources */,
+				638C075A1E5EBF1900B09F1F /* profile8.jpeg in Resources */,
+				638C07551E5EBF1900B09F1F /* profile3.jpeg in Resources */,
+				63342DF81DF1B71B00FE7F3A /* icon-payees.png in Resources */,
+				638C07571E5EBF1900B09F1F /* profile5.jpeg in Resources */,
+				63342DCE1DF174D300FE7F3A /* user.jpg in Resources */,
+				632B09071E08146500F3132E /* profile2.jpeg in Resources */,
+				638C07561E5EBF1900B09F1F /* profile4.jpeg in Resources */,
+				63342DE51DF1B6A900FE7F3A /* app-icon-180x180.png in Resources */,
+				638C075C1E5EBF1900B09F1F /* profile10.jpeg in Resources */,
+				63342DFA1DF1B71B00FE7F3A /* icon-profile.png in Resources */,
+				6236ADB021835C6B00135D9C /* AppIntentVocabulary.plist in Resources */,
+				63342DFD1DF1B71B00FE7F3A /* icon-tranHistory@2x.png in Resources */,
+				63342E011DF1B8B600FE7F3A /* icon-menu-60x60.png in Resources */,
+				63342DFE1DF1B71B00FE7F3A /* icon-transfer.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91A51DE6C8BB003E8029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6236ADAE21835C0D00135D9C /* AppIntentVocabulary.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91AE1DE6C8BB003E8029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				638C07681E5EBF2900B09F1F /* profile6.jpeg in Resources */,
+				638C07661E5EBF2900B09F1F /* profile4.jpeg in Resources */,
+				63DB0A091E0913C4003F78F5 /* profile2.jpeg in Resources */,
+				638C07671E5EBF2900B09F1F /* profile5.jpeg in Resources */,
+				63DB0A081E0913C4003F78F5 /* profile1.jpeg in Resources */,
+				631E91B91DE6C8BB003E8029 /* MainInterface.storyboard in Resources */,
+				638C076B1E5EBF2900B09F1F /* profile9.jpeg in Resources */,
+				638C07691E5EBF2900B09F1F /* profile7.jpeg in Resources */,
+				638C076C1E5EBF2900B09F1F /* profile10.jpeg in Resources */,
+				638C07651E5EBF2900B09F1F /* profile3.jpeg in Resources */,
+				638C076A1E5EBF2900B09F1F /* profile8.jpeg in Resources */,
+				635FA28F1DE86173000D21A5 /* images.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91CB1DE6C8D2003E8029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91D31DE6C8D2003E8029 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		631E916E1DE6C89C003E8029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E91781DE6C89C003E8029 /* ViewController.swift in Sources */,
+				63F48FCB1DF034C1004EF0A1 /* TransactionHistoryViewController.swift in Sources */,
+				631E91761DE6C89C003E8029 /* AppDelegate.swift in Sources */,
+				63F48FD71DF0356F004EF0A1 /* TransactionHistoryCell.swift in Sources */,
+				63F48FD21DF03515004EF0A1 /* PayeesViewController.swift in Sources */,
+				63F48FD51DF03557004EF0A1 /* PayeeCell.swift in Sources */,
+				63F48FCD1DF034D2004EF0A1 /* FundTransferController.swift in Sources */,
+				63F48FCF1DF034E3004EF0A1 /* ProfileViewController.swift in Sources */,
+				63C61E761DED905F00962544 /* SWRevealViewController.m in Sources */,
+				63F48FC91DF034A4004EF0A1 /* MenuViewController.swift in Sources */,
+				63F48FD91DF038C1004EF0A1 /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91A31DE6C8BB003E8029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E91AA1DE6C8BB003E8029 /* IntentHandler.swift in Sources */,
+				62380ED12180AC9F0048BC7F /* SearchAccountsIntentHandler.swift in Sources */,
+				631E91EC1DE6C962003E8029 /* SendPaymentIntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91AC1DE6C8BB003E8029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E91B61DE6C8BB003E8029 /* IntentViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91C81DE6C8D2003E8029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6376D8671E03C6DC00526668 /* DatabaseManager.swift in Sources */,
+				6376D8901E03EB1100526668 /* HistoryEntity.swift in Sources */,
+				6376D8911E03EB1100526668 /* PersonEntity.swift in Sources */,
+				631E91F41DE6CDDA003E8029 /* PersonManager.swift in Sources */,
+				6323D39A1E07DFD8007A020C /* HistoryProvider.swift in Sources */,
+				6323D39E1E07DFFE007A020C /* PayeeProvider.swift in Sources */,
+				6376D86D1E03E76C00526668 /* iPay.xcdatamodeld in Sources */,
+				63FE9CBB1DEEF701007EC02D /* HistoryManager.swift in Sources */,
+				635FA2911DE86219000D21A5 /* UserManager.swift in Sources */,
+				6376D8921E03EB1100526668 /* UserEntity.swift in Sources */,
+				635FA28B1DE7F938000D21A5 /* AccountManager.swift in Sources */,
+				6323D3981E07BEA7007A020C /* UserProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		631E91D11DE6C8D2003E8029 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631E91DD1DE6C8D2003E8029 /* iPayCoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		631E91BC1DE6C8BB003E8029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631E91AF1DE6C8BB003E8029 /* iPayIntentExtensionUI */;
+			targetProxy = 631E91BB1DE6C8BB003E8029 /* PBXContainerItemProxy */;
+		};
+		631E91BF1DE6C8BB003E8029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631E91A61DE6C8BB003E8029 /* iPayIntentExtension */;
+			targetProxy = 631E91BE1DE6C8BB003E8029 /* PBXContainerItemProxy */;
+		};
+		631E91D81DE6C8D2003E8029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631E91CC1DE6C8D2003E8029 /* iPayCore */;
+			targetProxy = 631E91D71DE6C8D2003E8029 /* PBXContainerItemProxy */;
+		};
+		631E91DA1DE6C8D2003E8029 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631E91711DE6C89C003E8029 /* iPay */;
+			targetProxy = 631E91D91DE6C8D2003E8029 /* PBXContainerItemProxy */;
+		};
+		63FCD4B31E09607A009D49C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631E91CC1DE6C8D2003E8029 /* iPayCore */;
+			targetProxy = 63FCD4B21E09607A009D49C2 /* PBXContainerItemProxy */;
+		};
+		63FCD4B51E096083009D49C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631E91CC1DE6C8D2003E8029 /* iPayCore */;
+			targetProxy = 63FCD4B41E096083009D49C2 /* PBXContainerItemProxy */;
+		};
+		63FCD4B71E096089009D49C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 631E91CC1DE6C8D2003E8029 /* iPayCore */;
+			targetProxy = 63FCD4B61E096089009D49C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		631E91791DE6C89C003E8029 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631E917A1DE6C89C003E8029 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		631E917E1DE6C89C003E8029 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631E917F1DE6C89C003E8029 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		631E91B71DE6C8BB003E8029 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				631E91B81DE6C8BB003E8029 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		631E91981DE6C89D003E8029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		631E91991DE6C89D003E8029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		631E919B1DE6C89D003E8029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iPay/iPay.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/iPayCore";
+				INFOPLIST_FILE = iPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iPay/UI/Slide Menu/SWRevealViewController/SidebarMenu-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		631E919C1DE6C89D003E8029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = iPay/iPay.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/iPayCore";
+				INFOPLIST_FILE = iPay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "iPay/UI/Slide Menu/SWRevealViewController/SidebarMenu-Bridging-Header.h";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		631E91C21DE6C8BB003E8029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iPayIntentExtensionUI/iPayIntentExtensionUI.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iPayIntentExtensionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		631E91C31DE6C8BB003E8029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iPayIntentExtensionUI/iPayIntentExtensionUI.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iPayIntentExtensionUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		631E91C51DE6C8BB003E8029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iPayIntentExtension/iPayIntentExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iPayIntentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		631E91C61DE6C8BB003E8029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = iPayIntentExtension/iPayIntentExtension.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = iPayIntentExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		631E91E51DE6C8D2003E8029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iPayCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		631E91E61DE6C8D2003E8029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = iPayCore/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		631E91E91DE6C8D2003E8029 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = iPayCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aspiresys.iPayCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPay.app/iPay";
+			};
+			name = Debug;
+		};
+		631E91EA1DE6C8D2003E8029 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = S45JLX7U95;
+				INFOPLIST_FILE = iPayCoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aspiresys.iPayCoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iPay.app/iPay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		631E916D1DE6C89C003E8029 /* Build configuration list for PBXProject "iPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631E91981DE6C89D003E8029 /* Debug */,
+				631E91991DE6C89D003E8029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631E919A1DE6C89D003E8029 /* Build configuration list for PBXNativeTarget "iPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631E919B1DE6C89D003E8029 /* Debug */,
+				631E919C1DE6C89D003E8029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631E91C11DE6C8BB003E8029 /* Build configuration list for PBXNativeTarget "iPayIntentExtensionUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631E91C21DE6C8BB003E8029 /* Debug */,
+				631E91C31DE6C8BB003E8029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631E91C41DE6C8BB003E8029 /* Build configuration list for PBXNativeTarget "iPayIntentExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631E91C51DE6C8BB003E8029 /* Debug */,
+				631E91C61DE6C8BB003E8029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631E91E41DE6C8D2003E8029 /* Build configuration list for PBXNativeTarget "iPayCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631E91E51DE6C8D2003E8029 /* Debug */,
+				631E91E61DE6C8D2003E8029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		631E91E81DE6C8D2003E8029 /* Build configuration list for PBXNativeTarget "iPayCoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				631E91E91DE6C8D2003E8029 /* Debug */,
+				631E91EA1DE6C8D2003E8029 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6376D86B1E03E76C00526668 /* iPay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6376D86C1E03E76C00526668 /* iPay.xcdatamodel */,
+			);
+			currentVersion = 6376D86C1E03E76C00526668 /* iPay.xcdatamodel */;
+			path = iPay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 631E916A1DE6C89C003E8029 /* Project object */;
+}
